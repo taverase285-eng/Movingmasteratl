@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Master LLC | Premium Moving Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- INTRO -->
+<div id="intro">
+    <div class="intro-grid"></div>
+    <div class="intro-glow"></div>
+    <span class="intro-corner tl">Atlanta, GA</span>
+    <span class="intro-corner tr">Est. 2020</span>
+    <span class="intro-corner bl">Premium Moving Solutions</span>
+    <span class="intro-corner br">Licensed &amp; Insured</span>
+    <div class="intro-logo-wrap">
+        <img src="logo.png" alt="Moving Master LLC Logo" class="intro-logo-img">
+        <div class="intro-wordmark" id="introWordmark"></div>
+        <div class="intro-tagline">Movers You Can Trust</div>
+    </div>
+    <div class="intro-bar-wrap">
+        <div class="intro-bar-track">
+            <div class="intro-bar-fill"></div>
+        </div>
+        <div class="intro-pct" id="introPct">0%</div>
+    </div>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+    <div class="nav-container">
+        <div class="logo">MOVING <span>MASTER</span></div>
+        <ul class="nav-links">
+            <li><a href="#home"     data-i18n="nav-home">Inicio</a></li>
+            <li><a href="#services" data-i18n="nav-services">Servicios</a></li>
+            <li><a href="#about"    data-i18n="nav-about">Nosotros</a></li>
+            <li><a href="#contact"  data-i18n="nav-contact" class="btn-primary">Cotizar Ahora</a></li>
+            <li>
+                <button id="lang-toggle" onclick="toggleLang()">🌐 EN</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="hero">
+    <div class="hero-content reveal fade-bottom">
+        <h1 data-i18n="hero-title">Mudanzas en las que <br><span class="text-gradient">puedes confiar</span></h1>
+        <p data-i18n="hero-sub">Soluciones de mudanza confiables, eficientes y cuidadosas, adaptadas a tus necesidades. Nosotros hacemos el trabajo pesado para que tú te enfoques en tu nuevo comienzo.</p>
+        <div class="hero-buttons">
+            <a href="#contact" class="btn-primary btn-large" data-i18n="hero-btn1">Obtén tu Estimado Gratis</a>
+            <a href="tel:6783331480" class="btn-secondary" data-i18n="hero-btn2">Llamar: 678-333-1480</a>
+        </div>
+    </div>
+    <div class="hero-overlay"></div>
+</header>
+
+<!-- SERVICES -->
+<section id="services" class="services section-padding">
+    <div class="container">
+        <div class="section-title reveal fade-bottom">
+            <h2 data-i18n="sec-services-title">Soluciones Premium</h2>
+            <p data-i18n="sec-services-sub">Cuidamos tus pertenencias como si fueran nuestras.</p>
+        </div>
+        <div class="grid-services">
+
+            <div class="service-card reveal fade-left">
+                <div class="service-img-wrap"><img src="imagen.jpeg" alt="Mudanzas Residenciales"></div>
+                <div class="icon">📦</div>
+                <h3 data-i18n="s1-title">Mudanzas Residenciales</h3>
+                <p data-i18n="s1-text">Hacemos que tu mudanza sea libre de estrés, asegurando que tus cosas lleguen del punto A al punto B a salvo.</p>
+            </div>
+
+            <div class="service-card reveal fade-bottom">
+                <div class="service-img-wrap"><img src="imagen2.jpeg" alt="Mudanzas Comerciales"></div>
+                <div class="icon">🏢</div>
+                <h3 data-i18n="s2-title">Mudanzas Comerciales</h3>
+                <p data-i18n="s2-text">Soluciones eficientes para tu negocio, minimizando el tiempo de inactividad de tu empresa.</p>
+            </div>
+
+            <div class="service-card reveal fade-right">
+                <div class="service-img-wrap"><img src="imagen3.jpg" alt="Desarmado y Armado"></div>
+                <div class="icon">🛠️</div>
+                <h3 data-i18n="s3-title">Desarmado y Armado</h3>
+                <p data-i18n="s3-text">Desarmamos y volvemos a armar tus muebles profesionalmente para que tú no tengas que hacerlo.</p>
+            </div>
+
+            <div class="service-card reveal fade-left">
+                <div class="service-img-wrap"><img src="imagen4.jpeg" alt="Soluciones de Almacenamiento"></div>
+                <div class="icon">🏭</div>
+                <h3 data-i18n="s4-title">Soluciones de Almacenamiento</h3>
+                <p data-i18n="s4-text">Nos especializamos en mudanzas profesionales de almacenamiento, ofreciendo un transporte impecable de sus pertenencias desde y hacia el almacén que usted elija.</p>
+            </div>
+
+            <div class="service-card reveal fade-right">
+                <div class="service-img-wrap"><img src="imagen5.jpeg" alt="Artículos Especiales"></div>
+                <div class="icon">⭐</div>
+                <h3 data-i18n="s5-title">Transporte de Artículos Especiales</h3>
+                <p data-i18n="s5-text">Algunos objetos requieren más que un simple traslado: requieren experiencia. Desde pianos y cajas fuertes hasta antigüedades, obras de arte y muebles de gran tamaño.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- POR QUÉ ELEGIRNOS -->
+<section id="why" class="why-section">
+    <div class="container">
+        <div class="section-title reveal fade-bottom">
+            <h2 data-i18n="why-title">¿Por qué elegirnos?</h2>
+            <p data-i18n="why-sub">Elegir la empresa de mudanzas adecuada marca la diferencia.</p>
+        </div>
+        <div class="why-inner">
+            <div class="why-text-col reveal fade-left">
+                <h2 data-i18n="why-h2">Confianza y profesionalismo en cada mudanza</h2>
+                <p data-i18n="why-text">Elegir la empresa de mudanzas adecuada marca la diferencia, y nos comprometemos a brindarle una experiencia confiable de principio a fin. Nuestro equipo llega puntual, trabaja con eficiencia y trata sus pertenencias con el cuidado y la profesionalidad que merecen.</p>
+            </div>
+            <div class="why-stats reveal fade-right">
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label" data-i18n="stat1">Años de experiencia</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label" data-i18n="stat2">Mudanzas completadas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label" data-i18n="stat3">Licenciados y asegurados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label" data-i18n="stat4">Artículos perdidos o dañados</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section section-padding">
+    <div class="container">
+        <div class="about-inner">
+            <div class="about-img-col reveal fade-left">
+                <div class="about-img-wrap">
+                    <img src="imagen6.jpg" alt="Equipo Moving Master LLC">
+                </div>
+                <div class="about-badge">
+                    <span class="badge-number">Est.</span>
+                    <span class="badge-year">2020</span>
+                    <span class="badge-city">Atlanta, GA</span>
+                </div>
+            </div>
+            <div class="about-text-col reveal fade-right">
+                <span class="section-eyebrow" data-i18n="about-eyebrow">Quiénes somos</span>
+                <h2 data-i18n="about-title">Acerca de Moving Master LLC</h2>
+                <p data-i18n="about-p1">En Moving Master LLC, nos comprometemos a brindar servicios de mudanza confiables, eficientes y sin estrés. Con sede en Georgia, servimos con orgullo a nuestra comunidad local con profesionalismo, cuidado y atención al detalle.</p>
+                <p data-i18n="about-p2">Entendemos que una mudanza es mucho más que simplemente transportar objetos: se trata de tratar sus pertenencias personales con respeto y de hacer que su transición sea lo más fluida posible.</p>
+                <ul class="about-list">
+                    <li><span class="about-check">✓</span><span data-i18n="about-li1">Equipo capacitado y profesional</span></li>
+                    <li><span class="about-check">✓</span><span data-i18n="about-li2">Licenciados y asegurados en Georgia</span></li>
+                    <li><span class="about-check">✓</span><span data-i18n="about-li3">Puntualidad garantizada en cada trabajo</span></li>
+                    <li><span class="about-check">✓</span><span data-i18n="about-li4">Trato respetuoso con tus pertenencias</span></li>
+                </ul>
+                <a href="#contact" class="btn-primary" style="margin-top:32px;display:inline-block;" data-i18n="about-btn">Solicitar Cotización</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="quote-section section-padding">
+    <div class="container quote-container reveal zoom-in">
+        <div class="quote-text">
+            <h2 data-i18n="contact-title">¿Listo para mudarte?</h2>
+            <p data-i18n="contact-sub">Proporciona tus datos y nos pondremos en contacto contigo con un presupuesto detallado.</p>
+        </div>
+        <form class="quote-form">
+            <div class="input-group">
+                <input type="text"  data-i18n-ph="form-name"     placeholder="Nombre"   required>
+                <input type="text"  data-i18n-ph="form-lastname" placeholder="Apellido" required>
+            </div>
+            <input type="email"     data-i18n-ph="form-email"    placeholder="Correo Electrónico" required>
+            <div class="input-group">
+                <select required>
+                    <option value="" disabled selected data-i18n="form-size">Tamaño de la Mudanza</option>
+                    <option value="small"  data-i18n="form-small">Pequeña (1-2 Habitaciones)</option>
+                    <option value="medium" data-i18n="form-medium">Mediana (3-4 Habitaciones)</option>
+                    <option value="large"  data-i18n="form-large">Grande (5+ Habitaciones)</option>
+                </select>
+                <input type="date" required>
+            </div>
+            <div class="input-group">
+                <input type="text" data-i18n-ph="form-from" placeholder="Mudarse Desde (Ej. Atlanta)" required>
+                <input type="text" data-i18n-ph="form-to"   placeholder="Mudarse Hacia" required>
+            </div>
+            <button type="submit" class="btn-primary btn-block" data-i18n="form-submit">Solicitar Cotización</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container footer-content">
+        <div class="footer-logo">MOVING <span>MASTER</span></div>
+        <p data-i18n="footer-copy">© 2026 Moving Master LLC. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+<style>
+#lang-toggle {
+    background: rgba(255,200,0,0.1);
+    border: 1px solid rgba(255,200,0,0.3);
+    color: #ffc800;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s, transform 0.2s;
+}
+#lang-toggle:hover {
+    background: rgba(255,200,0,0.2);
+    border-color: rgba(255,200,0,0.6);
+    transform: scale(1.05);
+}
+</style>
+
+<script>
+// ============================================================
+//  SISTEMA DE TRADUCCIÓN  ES <-> EN
+// ============================================================
+const i18n = {
+    es: {
+        'nav-home':'Inicio','nav-services':'Servicios','nav-about':'Nosotros','nav-contact':'Cotizar Ahora',
+        'hero-title':'Mudanzas en las que <br><span class="text-gradient">puedes confiar</span>',
+        'hero-sub':'Soluciones de mudanza confiables, eficientes y cuidadosas, adaptadas a tus necesidades. Nosotros hacemos el trabajo pesado para que tú te enfoques en tu nuevo comienzo.',
+        'hero-btn1':'Obtén tu Estimado Gratis','hero-btn2':'Llamar: 678-333-1480',
+        'sec-services-title':'Soluciones Premium','sec-services-sub':'Cuidamos tus pertenencias como si fueran nuestras.',
+        's1-title':'Mudanzas Residenciales','s1-text':'Hacemos que tu mudanza sea libre de estrés, asegurando que tus cosas lleguen del punto A al punto B a salvo.',
+        's2-title':'Mudanzas Comerciales','s2-text':'Soluciones eficientes para tu negocio, minimizando el tiempo de inactividad de tu empresa.',
+        's3-title':'Desarmado y Armado','s3-text':'Desarmamos y volvemos a armar tus muebles profesionalmente para que tú no tengas que hacerlo.',
+        's4-title':'Soluciones de Almacenamiento','s4-text':'Nos especializamos en mudanzas profesionales de almacenamiento, ofreciendo un transporte impecable de sus pertenencias desde y hacia el almacén que usted elija.',
+        's5-title':'Transporte de Artículos Especiales','s5-text':'Algunos objetos requieren más que un simple traslado: requieren experiencia. Desde pianos y cajas fuertes hasta antigüedades, obras de arte y muebles de gran tamaño.',
+        'why-title':'¿Por qué elegirnos?','why-sub':'Elegir la empresa de mudanzas adecuada marca la diferencia.',
+        'why-h2':'Confianza y profesionalismo en cada mudanza',
+        'why-text':'Elegir la empresa de mudanzas adecuada marca la diferencia, y nos comprometemos a brindarle una experiencia confiable de principio a fin. Nuestro equipo llega puntual, trabaja con eficiencia y trata sus pertenencias con el cuidado y la profesionalidad que merecen.',
+        'stat1':'Años de experiencia','stat2':'Mudanzas completadas','stat3':'Licenciados y asegurados','stat4':'Artículos perdidos o dañados',
+        'about-eyebrow':'Quiénes somos','about-title':'Acerca de Moving Master LLC',
+        'about-p1':'En Moving Master LLC, nos comprometemos a brindar servicios de mudanza confiables, eficientes y sin estrés. Con sede en Georgia, servimos con orgullo a nuestra comunidad local con profesionalismo, cuidado y atención al detalle.',
+        'about-p2':'Entendemos que una mudanza es mucho más que simplemente transportar objetos: se trata de tratar sus pertenencias personales con respeto y de hacer que su transición sea lo más fluida posible.',
+        'about-li1':'Equipo capacitado y profesional','about-li2':'Licenciados y asegurados en Georgia',
+        'about-li3':'Puntualidad garantizada en cada trabajo','about-li4':'Trato respetuoso con tus pertenencias',
+        'about-btn':'Solicitar Cotización',
+        'contact-title':'¿Listo para mudarte?','contact-sub':'Proporciona tus datos y nos pondremos en contacto contigo con un presupuesto detallado.',
+        'form-name':'Nombre','form-lastname':'Apellido','form-email':'Correo Electrónico',
+        'form-size':'Tamaño de la Mudanza','form-small':'Pequeña (1-2 Habitaciones)','form-medium':'Mediana (3-4 Habitaciones)','form-large':'Grande (5+ Habitaciones)',
+        'form-from':'Mudarse Desde (Ej. Atlanta)','form-to':'Mudarse Hacia','form-submit':'Solicitar Cotización',
+        'footer-copy':'© 2026 Moving Master LLC. Todos los derechos reservados.'
+    },
+    en: {
+        'nav-home':'Home','nav-services':'Services','nav-about':'About','nav-contact':'Get a Quote',
+        'hero-title':'Moves you can <br><span class="text-gradient">truly trust</span>',
+        'hero-sub':'Reliable, efficient and careful moving solutions tailored to your needs. We do the heavy lifting so you can focus on your fresh start.',
+        'hero-btn1':'Get Your Free Estimate','hero-btn2':'Call: 678-333-1480',
+        'sec-services-title':'Premium Solutions','sec-services-sub':'We treat your belongings as if they were our own.',
+        's1-title':'Residential Moving','s1-text':'We make your move stress-free, ensuring your belongings get from point A to point B safely and on time.',
+        's2-title':'Commercial Moving','s2-text':'Efficient solutions for your business, minimizing downtime and keeping your operations running smoothly.',
+        's3-title':'Furniture Assembly & Disassembly','s3-text':'We professionally disassemble and reassemble your furniture so you do not have to lift a finger.',
+        's4-title':'Storage Solutions','s4-text':'We specialize in professional storage moves, providing seamless transport of your belongings to and from the storage facility of your choice.',
+        's5-title':'Special Items Transport','s5-text':'Some items require more than a simple move — they require expertise. From pianos and safes to antiques, artwork and oversized furniture.',
+        'why-title':'Why Choose Us?','why-sub':'Choosing the right moving company makes all the difference.',
+        'why-h2':'Trust and professionalism in every move',
+        'why-text':'Choosing the right moving company makes all the difference, and we are committed to delivering a reliable experience from start to finish. Our team arrives on time, works efficiently, and handles your belongings with the care and professionalism they deserve.',
+        'stat1':'Years of experience','stat2':'Moves completed','stat3':'Licensed & insured','stat4':'Items lost or damaged',
+        'about-eyebrow':'Who we are','about-title':'About Moving Master LLC',
+        'about-p1':'At Moving Master LLC, we are committed to providing reliable, efficient and stress-free moving services. Based in Georgia, we proudly serve our local community with professionalism, care and attention to detail.',
+        'about-p2':'We understand that a move is much more than just transporting objects — it is about treating your personal belongings with respect and making your transition as smooth as possible.',
+        'about-li1':'Trained and professional team','about-li2':'Licensed and insured in Georgia',
+        'about-li3':'Punctuality guaranteed on every job','about-li4':'Respectful handling of your belongings',
+        'about-btn':'Request a Quote',
+        'contact-title':'Ready to move?','contact-sub':'Provide your details and we will get back to you with a detailed, no-obligation quote.',
+        'form-name':'First Name','form-lastname':'Last Name','form-email':'Email Address',
+        'form-size':'Move Size','form-small':'Small (1-2 Rooms)','form-medium':'Medium (3-4 Rooms)','form-large':'Large (5+ Rooms)',
+        'form-from':'Moving From (e.g. Atlanta)','form-to':'Moving To','form-submit':'Request a Quote',
+        'footer-copy':'© 2026 Moving Master LLC. All rights reserved.'
+    }
+};
+
+let currentLang = 'es';
+
+function toggleLang() {
+    currentLang = currentLang === 'es' ? 'en' : 'es';
+    applyLang(currentLang);
+    const btn = document.getElementById('lang-toggle');
+    btn.textContent = currentLang === 'es' ? '🌐 EN' : '🌐 ES';
+    document.documentElement.lang = currentLang;
+}
+
+function applyLang(lang) {
+    const dict = i18n[lang];
+
+    // Texto / HTML interno
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key] !== undefined) el.innerHTML = dict[key];
+    });
+
+    // Placeholders de inputs
+    document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+        const key = el.getAttribute('data-i18n-ph');
+        if (dict[key] !== undefined) el.placeholder = dict[key];
+    });
+}
+</script>
+
+</body>
+</html>
