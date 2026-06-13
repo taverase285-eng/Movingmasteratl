@@ -85,7 +85,7 @@ body { background-color: var(--bg-light); color: var(--text-dark); overflow-x: h
 }
 
 /* --- TEXTO MOVING MASTER --- */
-.intro-wordmark { font-family: 'Bebas Neue', sans-serif; font-size: clamp(1.6rem, 7vw, 5rem); letter-spacing: 8px; color: var(--c-white); display: flex; flex-wrap: wrap; justify-content: center; }
+.intro-wordmark { font-family: 'Bebas Neue', sans-serif; font-size: clamp(1.6rem, 7vw, 5rem); letter-spacing: 8px; color: var(--c-white); display: flex; flex-wrap: nowrap; justify-content: center; }
 .intro-wordmark span { display: inline-block; opacity: 0; transform: translateY(60px); animation: charSlide .6s var(--ease-out) forwards; }
 .intro-wordmark .gold { color: var(--c-gold); }
 @keyframes charSlide { to { opacity: 1; transform: translateY(0); } }
@@ -557,11 +557,12 @@ footer { background: #0B1120; color: rgba(255, 255, 255, 0.6); padding: 40px 0; 
     .intro-corner.tl { font-size: 0.55rem; }
 
     /* ── INTRO MÓVIL ── */
-    .intro-wordmark { 
-        font-size: clamp(1.8rem, 10vw, 3rem); 
-        letter-spacing: 3px;
-        justify-content: center;
-    }
+   .intro-wordmark { 
+    font-size: 5.5vw;
+    letter-spacing: 2px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
     .intro-logo-img { width: 100px; }
     .intro-logo-wrap { gap: 16px; padding: 0 20px; width: 100%; }
     .intro-tagline { font-size: 0.65rem; letter-spacing: 3px; }
