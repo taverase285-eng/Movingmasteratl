@@ -550,13 +550,25 @@ footer { background: #0B1120; color: rgba(255, 255, 255, 0.6); padding: 40px 0; 
     .quote-form select { padding: 13px 14px; font-size: 15px; }
     .btn-block { font-size: 16px; padding: 15px; }
 
-    /* ── INTRO CORNERS ── */
+ /* ── INTRO CORNERS ── */
     .intro-corner.tr,
     .intro-corner.bl,
     .intro-corner.br { display: none; }
     .intro-corner.tl { font-size: 0.55rem; }
-}
 
+    /* ── INTRO MÓVIL ── */
+    .intro-wordmark { 
+        font-size: clamp(1.8rem, 10vw, 3rem); 
+        letter-spacing: 3px;
+        justify-content: center;
+    }
+    .intro-logo-img { width: 100px; }
+    .intro-logo-wrap { gap: 16px; padding: 0 20px; width: 100%; }
+    .intro-tagline { font-size: 0.65rem; letter-spacing: 3px; }
+    .intro-bar-wrap { width: 200px; }
+
+}
+       
 /* ── EXTRA PEQUEÑO (iPhone SE, etc) ── */
 @media (max-width: 390px) {
     .hero-content h1 { font-size: 1.8rem; }
