@@ -39,6 +39,26 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // ── MENÚ HAMBURGUESA ──
+const hamburger = document.getElementById('hamburger');
+const navLinks  = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+    document.body.style.overflow =
+        navLinks.classList.contains('open') ? 'hidden' : '';
+});
+
+// Cierra el menú al tocar un enlace
+navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('open');
+        document.body.style.overflow = '';
+    });
+});
+
     // 2. Configurar Intersection Observer (Animaciones Reveal)
     const revealElements = document.querySelectorAll('.reveal');
     const revealOptions = {
