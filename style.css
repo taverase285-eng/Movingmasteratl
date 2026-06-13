@@ -85,7 +85,7 @@ body { background-color: var(--bg-light); color: var(--text-dark); overflow-x: h
 }
 
 /* --- TEXTO MOVING MASTER --- */
-.intro-wordmark { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2.8rem, 7vw, 5rem); letter-spacing: 8px; color: var(--c-white); display: flex; }
+.intro-wordmark { font-family: 'Bebas Neue', sans-serif; font-size: clamp(1.6rem, 7vw, 5rem); letter-spacing: 8px; color: var(--c-white); display: flex; flex-wrap: wrap; justify-content: center; }
 .intro-wordmark span { display: inline-block; opacity: 0; transform: translateY(60px); animation: charSlide .6s var(--ease-out) forwards; }
 .intro-wordmark .gold { color: var(--c-gold); }
 @keyframes charSlide { to { opacity: 1; transform: translateY(0); } }
